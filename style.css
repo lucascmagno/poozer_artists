@@ -1,0 +1,162 @@
+@charset "utf-8";
+*{
+    
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main{
+
+    width: 700px;
+    margin: auto;
+}
+div{
+    border: 1px solid;
+}
+
+.container{
+    height: 400px;
+}
+
+.img_principal{
+    position: relative;
+    width: 700px;
+}
+.poozer_logo{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.container1{
+    display: flex;
+    flex-direction: row-reverse;    
+}
+.h2_principal{
+    font-size: 2.2em;
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    padding-top: 30px;
+    text-indent: 30px;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: #3E9BB9;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.content_3{
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.container3 p{
+    width: 300px;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img_allan{
+    position: relative;
+    filter: blur(1.5px);
+    width: 100%;
+    height: 400px;
+}
+.h2_status{
+    font-size: 2.2em;
+    font-weight: 600;
+}
+
+p{
+    font-size: 18px;
+}
+
+h2.poozer_character{
+    text-align: center;
+    font-size: 2em;
+}
+
+.character{
+    width: 150px;
+    height: 200px;
+    margin-bottom: 25px;
+}
+
+.character img{
+    width: 100%;
+    height: 100%;
+}
+
+.container3{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.div_character01, .div_character02, .div_character03{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+p.nome_character{
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    background: #D9D9D9;
+    border-radius: 100px 0 50px 10px;
+    margin-bottom: 3px;
+}
+
+footer{
+    box-sizing: border-box;
+    border: 15px solid black;
+    background-color: #D9D9D9;
+    height: 300px;
+    width: 700px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.poozer_footer{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+footer p{
+    position: absolute;
+    text-align: center;
+    width: 450px;
+}
+
+.content_footer{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
